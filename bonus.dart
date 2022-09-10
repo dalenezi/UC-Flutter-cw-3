@@ -5,9 +5,9 @@ void main() {
   
 }
 String saySum({required List sumNumbers}){
-   var sum;
+   var sum = 0;
   for(var i = 0; i < sumNumbers.length; i++) {
-    var numo = sumNumbers [i];
+    var numo = sum;
      sum = sumNumbers[i] + numo; 
   }
   var finalSum = 'Sum = $sum';

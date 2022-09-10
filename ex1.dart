@@ -3,8 +3,8 @@ void main() {
   int sum = 0;
    
   for(var i = 0; i < nums.length; i++) {
-    var numo = nums [i];
-    sum = nums[i] + numo;
+    int sum2 = sum;
+    sum = nums[i] + sum2;
     
   }
   print(sum);
